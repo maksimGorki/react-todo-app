@@ -7,6 +7,7 @@ function App() {
   const handleTodoInput = (e) => {
     setNewTodo(e.currentTarget.value);
   };
+
   const addTodo = () => {
     if (newTodo.length === 0) {
       return;
