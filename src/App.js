@@ -5,7 +5,6 @@ function App() {
   const [newTodo, setNewTodo] = useState("");
   const [todoList, setTodoList] = useState([]);
   const handleTodoInput = (e) => {
-    // console.log(e);
     setNewTodo(e.currentTarget.value);
   };
   const addTodo = () => {
